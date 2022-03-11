@@ -1,16 +1,18 @@
 ## Homework | Week 2
+### Book Lister and Searcher
 
-Elimizde bir kitap listesi var. Bu uygulamanın 2 görevi var.
-1. Uygulama içerisindeki tüm kitapları çıktı olarak göstermek.
-2. Girdi olarak verilen kitap ismini varsa ekrana bastırmak yok ise kitabın mevcut olmadığına dair çıktı yazdırmak.
+The code lists the book names in the file and queries whether the searched book name is in the list.
 
-### list command
+*Script is an example of an exercise written in Go language.*
+
+ - **list command**
 ```
 go run main.go list
 ```
-Bu komut ile uygulama içerisindeki tüm kitapları çıktı olarak görmek istiyoruz.
+This command list all the books in the code file.
 
-### search command 
+ - **search command**
 ```
-go run main.go search <bookName>
-go run main.go search Lord of the Ring: The Return of 
+go run main.go <bookName>
+```
+This command searches the given book information and returns whether it exists or not. This command is not case sensetive.
